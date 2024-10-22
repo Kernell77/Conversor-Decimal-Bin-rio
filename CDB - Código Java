@@ -1,0 +1,13 @@
+import java.util.Scanner;
+public class Main
+{
+	public static void main(String[] args) {
+    Scanner ler = new Scanner(System.in);
+        System.out.println("Digite um número decimal:");
+        int numeroDecimal = ler.nextInt();
+        
+        String numeroBinario = Integer.toBinaryString(numeroDecimal);
+        System.out.print("O número binário é: " + numeroBinario);
+        
+	}
+}
